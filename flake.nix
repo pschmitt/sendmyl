@@ -30,6 +30,8 @@
 
           src = ./.;
 
+          pythonRelaxDeps = [ "rich" ];
+
           buildInputs = [
             pkgs.python3Packages.setuptools
             pkgs.python3Packages.setuptools-scm
