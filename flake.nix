@@ -25,7 +25,7 @@
 
         sendmyl = pkgs.python3Packages.buildPythonApplication {
           pname = "sendmyl";
-          version = builtins.readFile ./version.txt;
+          version = builtins.readFile ./sendmyl-version.txt;
           pyproject = true;
 
           src = ./.;
